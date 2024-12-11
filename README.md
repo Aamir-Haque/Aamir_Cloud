@@ -17,7 +17,7 @@ The dataset for this project was sourced from the "Parks, Recreation & Pets" cat
 
 ## Methodology
 The analysis followed a structured Data Analysis Process (DAP), which included the following steps:
-![Design of DAP](https://github.com/Aamir-Haque/Aamir_Cloud/blob/1e7b4eaed4d1046c772e355661173f1155f42f4d/Design%20of%20the%20Data%20Analytic%20Platform.jpg)
+![Design of DAP](https://raw.githubusercontent.com/Aamir-Haque/Aamir_Cloud/blob/1e7b4eaed4d1046c772e355661173f1155f42f4d/Design%20of%20the%20Data%20Analytic%20Platform.jpg)
 ### 1. Data Ingestion
 - The dataset was downloaded from the Open Data Vancouver portal in CSV format.
 - Uploaded to an Amazon S3 bucket named `prp-parks-raw-aam` for scalable and secure storage.
@@ -47,7 +47,7 @@ Data wrangling was performed to ensure the dataset was properly structured, clea
   - The cleaned and transformed data was saved in Amazon S3 buckets (`prp-parks-trf-aam`), ensuring easy access for further analysis.
 
 ### 5. Data Pipeline
-![Data Pipeline](https://github.com/Aamir-Haque/Aamir_Cloud/blob/1e7b4eaed4d1046c772e355661173f1155f42f4d/Data%20Pipeline.jpg)
+![Data Pipeline](https://raw.githubusercontent.com/Aamir-Haque/Aamir_Cloud/blob/1e7b4eaed4d1046c772e355661173f1155f42f4d/Data%20Pipeline.jpg)
 
 - Created a data pipeline using AWS Glue’s Visual ETL tool to:
   - Aggregate the count of washrooms based on availability.
@@ -65,7 +65,7 @@ Data wrangling was performed to ensure the dataset was properly structured, clea
    - This provides insights into infrastructure distribution and highlights potential gaps.
 
 2. **Exploratory Analysis**:
-![Data Visualization](https://github.com/Aamir-Haque/Aamir_Cloud/blob/1e7b4eaed4d1046c772e355661173f1155f42f4d/Data%20Visualization.jpg)
+![Data Visualization](https://raw.githubusercontent.com/Aamir-Haque/Aamir_Cloud/blob/1e7b4eaed4d1046c772e355661173f1155f42f4d/Data%20Visualization.jpg)
    - Larger parks are significantly more likely to have washrooms compared to smaller parks.
    - This indicates a bias in infrastructure allocation favoring larger parks.
 
