@@ -17,7 +17,7 @@ The dataset for this project was sourced from the "Parks, Recreation & Pets" cat
 
 ## Methodology
 The analysis followed a structured Data Analysis Process (DAP), which included the following steps:
-![Design of DAP](https://raw.githubusercontent.com/Aamir-Haque/Aamir_Cloud/blob/1e7b4eaed4d1046c772e355661173f1155f42f4d/Design%20of%20the%20Data%20Analytic%20Platform.jpg)
+![Design of the Data Analytic Platform](https://github.com/user-attachments/assets/6d42e259-de26-4ac6-bab6-9c0ae7827b0a)
 ### 1. Data Ingestion
 - The dataset was downloaded from the Open Data Vancouver portal in CSV format.
 - Uploaded to an Amazon S3 bucket named `prp-parks-raw-aam` for scalable and secure storage.
@@ -46,8 +46,8 @@ Data wrangling was performed to ensure the dataset was properly structured, clea
 - **Data Storage**:
   - The cleaned and transformed data was saved in Amazon S3 buckets (`prp-parks-trf-aam`), ensuring easy access for further analysis.
 
-### 5. Data Pipeline
-![Data Pipeline](https://raw.githubusercontent.com/Aamir-Haque/Aamir_Cloud/blob/1e7b4eaed4d1046c772e355661173f1155f42f4d/Data%20Pipeline.jpg)
+### Data Pipeline
+![Data Pipeline](https://github.com/user-attachments/assets/24bd5ced-f2f1-4d4d-b7ce-a1482bed5bf8)
 
 - Created a data pipeline using AWS Glue’s Visual ETL tool to:
   - Aggregate the count of washrooms based on availability.
@@ -64,8 +64,8 @@ Data wrangling was performed to ensure the dataset was properly structured, clea
    - The analysis revealed the total number of parks with and without washrooms.
    - This provides insights into infrastructure distribution and highlights potential gaps.
 
-2. **Exploratory Analysis**:
-![Data Visualization](https://raw.githubusercontent.com/Aamir-Haque/Aamir_Cloud/blob/1e7b4eaed4d1046c772e355661173f1155f42f4d/Data%20Visualization.jpg)
+**Exploratory Analysis**:
+![Data Visualization](https://github.com/user-attachments/assets/9d2a279f-7c96-43ab-85a6-ca56d6843816)
    - Larger parks are significantly more likely to have washrooms compared to smaller parks.
    - This indicates a bias in infrastructure allocation favoring larger parks.
 
